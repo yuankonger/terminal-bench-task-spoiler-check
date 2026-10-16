@@ -1,0 +1,24 @@
+{
+  "score": 0.7454545454545455,
+  "spoiler_recall": 0.8121,
+  "strike_precision": 0.9241,
+  "strike_f1": 0.8645,
+  "golden_words": 764,
+  "golden_struck_words": 165,
+  "errors": 42,
+  "added": 0,
+  "deleted": 0,
+  "missed": 31,
+  "over_struck": 11,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "The lone survivors and fractured outcasts stand shoulder-to-shoulder as a unified front, using their forged solidarity to defy Balor's army and rewrite the tragic future depicted in the game's opening moments."
+    ],
+    "over_struck": [
+      "Concurrently,",
+      "The characters actively confront the sins of their ancestors, with"
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "score": 0.0,
+  "spoiler_recall": 1.0,
+  "strike_precision": 0.4064,
+  "strike_f1": 0.5779,
+  "golden_words": 764,
+  "golden_struck_words": 165,
+  "errors": 241,
+  "added": 0,
+  "deleted": 0,
+  "missed": 0,
+  "over_struck": 241,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [],
+    "over_struck": [
+      "As mid-game conflicts intensify, these personal grievances scale up into systemic confrontations across Dagda. The characters realize their personal tragedies are symptoms of a deeply corrupt socio-political hierarchy where the proletariat and minority factions are manipulated by the ruling class; Leda\u2019s blind rage over the Cydonia Massacre leaves her easily manipulated by hidden power brokers, and Theodora discovers that political survival requires sacrificing her own humanity for state power. By the late-game climax, these individual threads merge into a collective realization of agency as the characters cease to be pawns of empire or divine prophecy. Instead, they harness the bonds forged during the Heroic Games to reject the cyclic exploitation of the Dagdan elite, transforming their private vendettas into a unified stand for true self-determination.",
+      "As mid-game revelations explode, the hidden truths of these bloodlines radically reshape the conflict's scale.",
+      "Concurrently,",
+      "In the late-game convergence, the weight of divine and imperial heritage culminates in a direct confrontation with fate itself. The characters actively confront the sins of their ancestors, with",
+      "As mid-game hostilities boil over, the crucible of tournament combat, political betrayals, and shared hardships forces these outcasts into unexpected unity. Dietrich learns through his companions that there is more to existence than endless battle, and the four leads form complex cross-faction alliances during dramatic dual-boss encounters and political skirmishes\u2014such as the tactical recreation of the historical war against Damascar, where bitter rivals are forced to coordinate despite deep-seated ideological friction."
+    ]
+  }
+}

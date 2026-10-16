@@ -1,0 +1,25 @@
+{
+  "score": 0.32727272727272727,
+  "spoiler_recall": 0.8485,
+  "strike_precision": 0.6195,
+  "strike_f1": 0.7161,
+  "golden_words": 764,
+  "golden_struck_words": 165,
+  "errors": 111,
+  "added": 0,
+  "deleted": 0,
+  "missed": 25,
+  "over_struck": 86,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "Cai's identity is upended when he is revealed to be the son of the goddess Aurora, making him the grandson of Solel and Yu Phas,"
+    ],
+    "over_struck": [
+      "By the late-game climax, these individual threads merge into a collective realization of agency as the characters cease to be pawns of empire or divine prophecy. Instead, they harness the bonds forged during the Heroic Games to reject the cyclic exploitation of the Dagdan elite, transforming their private vendettas into a unified stand for true self-determination.",
+      "Concurrently,",
+      "In the late-game convergence, the weight of divine and imperial heritage culminates in a direct confrontation with fate itself. The characters actively confront the sins of their ancestors, with"
+    ]
+  }
+}
