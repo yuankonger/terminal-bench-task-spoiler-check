@@ -4,7 +4,7 @@ artifacts = ["/app/script_act1.docx"]
 
 [task]
 name = "yuan/spoiler-check"
-version = "0.1.0"
+version = "0.2.0"
 description = "Strike through every line of a Fire Emblem: Fortune's Weave plot script that goes beyond Act 1."
 authors = [{ name = "Yuan", email = "" }]
 

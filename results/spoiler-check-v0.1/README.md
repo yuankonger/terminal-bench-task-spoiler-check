@@ -1,4 +1,6 @@
-# spoiler-check results
+# spoiler-check v0.1 results (original hand-written script)
+
+These runs used the original Acts 1-3 script, which task version 0.2.0 replaced. They do not apply to the current test case.
 
 Each model got only `script.docx` and the task instruction, with web access and Python (`python-docx`), and wrote `script_act1.docx`. Each folder holds that output, `score.json` (score, diagnostics and the exact error spans) and `reward.txt`.
 
