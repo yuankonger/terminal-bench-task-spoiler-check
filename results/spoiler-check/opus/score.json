@@ -1,0 +1,21 @@
+{
+  "score": 0.95,
+  "spoiler_recall": 0.95,
+  "strike_precision": 1.0,
+  "strike_f1": 0.9744,
+  "golden_words": 777,
+  "golden_struck_words": 380,
+  "errors": 19,
+  "added": 0,
+  "deleted": 0,
+  "missed": 19,
+  "over_struck": 0,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "One ruler at the heart of this story turns out to be far less human than his title suggests."
+    ],
+    "over_struck": []
+  }
+}

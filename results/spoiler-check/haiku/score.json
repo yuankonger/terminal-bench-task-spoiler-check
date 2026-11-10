@@ -1,0 +1,25 @@
+{
+  "score": 0.9026315789473685,
+  "spoiler_recall": 1.0,
+  "strike_precision": 0.9113,
+  "strike_f1": 0.9536,
+  "golden_words": 777,
+  "golden_struck_words": 380,
+  "errors": 37,
+  "added": 0,
+  "deleted": 0,
+  "missed": 0,
+  "over_struck": 37,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [],
+    "over_struck": [
+      "though",
+      "but",
+      "Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,",
+      "The survivors of that ruined future have no army to speak of,",
+      "Half a decade before that catastrophe,"
+    ]
+  }
+}

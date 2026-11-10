@@ -1,0 +1,21 @@
+{
+  "score": 0.9736842105263158,
+  "spoiler_recall": 1.0,
+  "strike_precision": 0.9744,
+  "strike_f1": 0.987,
+  "golden_words": 777,
+  "golden_struck_words": 380,
+  "errors": 10,
+  "added": 0,
+  "deleted": 0,
+  "missed": 0,
+  "over_struck": 10,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [],
+    "over_struck": [
+      "the same city she first walked into thirsting for revenge."
+    ]
+  }
+}
