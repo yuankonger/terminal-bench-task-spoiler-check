@@ -1,91 +1,762 @@
 {
-  "_note": "Answer key for the test case (v0.3). Every sentence is written in our own words, not copied from a source. Each sentence is a list of segments; a segment's act says when its event first happens: 1 = Prologue + Part I (Heroic Games), 2 = Part II 'War', 3 = Part III 'Salvation', 0 = vague foreshadowing that spoils nothing. Segments with act 2 or 3 are struck in the golden doc. Kinds: pure (one act), mixed (an Act 1 event and a later event in one sentence), foreshadow (kept), veiled (a later event hinted at without names; struck). build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
+  "_note": "Answer key for the test case (v0.3). Every sentence is written in our own words, not copied from a source. Each sentence is a list of segments; a segment's act says when its event first happens: 1 = Prologue + Part I (Heroic Games), 2 = Part II 'War', 3 = Part III 'Salvation', 0 = vague foreshadowing that spoils nothing. Segments with act 2 or 3 are struck in the golden doc. Kinds: item (a weapon, item, class, system or build tied to the act it first appears in; may be mixed), pure (one act), mixed (an Act 1 event and a later event in one sentence), foreshadow (kept), veiled (a later event hinted at without names; struck). build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
   "sources": {
     "FEW": "https://fireemblemwiki.org/wiki/Fire_Emblem:_Fortune's_Weave",
     "TGW": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/story-and-plot-structure",
     "WCC": "https://wccftech.com/review/fire-emblem-fortunes-weave/",
     "RP2": "https://www.rpgsite.net/guide/21325-fire-emblem-fortunes-weave-part-2-war-walkthrough",
-    "RP3": "https://www.rpgsite.net/guide/21433-fire-emblem-fortunes-weave-part-iii-salvation-walkthrough"
+    "RP3": "https://www.rpgsite.net/guide/21433-fire-emblem-fortunes-weave-part-iii-salvation-walkthrough",
+    "TG": "https://www.thegamer.com/fire-emblem-fortunes-weave-part-3-guide-tips/",
+    "GR": "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
+    "PT": "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes",
+    "OL": "https://outputlag.com/guides/fire-emblem-fortunes-weave-unit-composition-and-team-building-for-each-route-complete-guide/"
   },
   "sentences": [
-    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
-      {"act": 1, "text": "In the opening hours the land is a graveyard run by the walking dead, and whoever is still breathing hides from Balor's legions."}]},
-    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
-      {"act": 1, "text": "A god older than the empire plucks one soul out of oblivion and binds it to a goddess whose gift is turning back the clock."}]},
-    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
-      {"act": 1, "text": "Half a decade before that catastrophe, Solel throws open the gates of his capital for a tournament whose champion may ask him for anything at all."}]},
-    {"kind": "pure", "src": ["FEW"], "segments": [
-      {"act": 1, "text": "Dietrich never meant to set foot on Dagda; a beast of the deep sent his ship to the bottom, and he joins the tournament for nothing grander than the thrill of a good fight."}]},
-    {"kind": "pure", "src": ["TGW"], "segments": [
-      {"act": 1, "text": "Hong Hua and Troy are the first friendly faces our hero finds among the ruins."}]},
-
-    {"kind": "pure", "src": ["WCC", "RP2"], "segments": [
-      {"act": 2, "text": "When the cheering stops, the empire and Saramis go to war, and the first blood is spilled on the Klytius Plains."}]},
-    {"kind": "pure", "src": ["RP2"], "segments": [
-      {"act": 2, "text": "On a bridge leading into the capital, an imperial officer named Lind hides behind a wall of armored elephants."}]},
-    {"kind": "pure", "src": ["RP2"], "segments": [
-      {"act": 2, "text": "The emperor Dagda does not go down quietly: struck down once, he rises again in the shape of a dragon."}]},
-
-    {"kind": "pure", "src": ["RP3"], "segments": [
-      {"act": 3, "text": "In the closing campaign, the many versions of each hero from every rewritten timeline are folded into a single army."}]},
-    {"kind": "pure", "src": ["RP3"], "segments": [
-      {"act": 3, "text": "Lyrah makes her last stand as a dragon at the end of the world, and she does not walk away from it."}]},
-    {"kind": "pure", "src": ["RP3", "TGW"], "segments": [
-      {"act": 3, "text": "The journey ends deep inside Balor's own temple, where the heroes tear down his barrier and destroy him."}]},
-
-    {"kind": "mixed", "src": ["FEW", "RP3"], "segments": [
-      {"act": 1, "text": "Cai enters the tournament with Tialla and Peter hoping to buy his father Castor's freedom,"},
-      {"act": 3, "text": " and years later he is among the first to reach Eshmel's side when the capital is finally liberated."}]},
-    {"kind": "mixed", "src": ["FEW", "RP2"], "segments": [
-      {"act": 1, "text": "Leda signs up the moment she learns that Bertrand, the man who killed her father, is competing too,"},
-      {"act": 2, "text": " yet once the fighting turns into a real war, Bertrand is marching beside Theodora in its opening battle."}]},
-    {"kind": "mixed", "src": ["RP2", "RP3"], "segments": [
-      {"act": 2, "text": "Aswan and Tahonia lend their blades only as passing guests during the invasion of Grand Aragon,"},
-      {"act": 3, "text": " and it takes the last campaign for them to commit to the cause for good."}]},
-    {"kind": "mixed", "src": ["FEW", "WCC", "RP2"], "segments": [
-      {"act": 1, "text": "Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,"},
-      {"act": 2, "text": " which explains how Eshmel can appear out of nowhere to shatter the emperor's protective barrier when the capital is stormed."}]},
-    {"kind": "mixed", "src": ["RP3", "FEW"], "segments": [
-      {"act": 3, "text": "Long after the Games, each of Dagsion's gods asks a favor once their ruined temple is rebuilt,"},
-      {"act": 1, "text": " but in the beginning Theodora's only interest in temples is the one she wants to raise for Yu Phas once she has claimed Cybele."}]},
-    {"kind": "mixed", "src": ["FEW", "RP2"], "segments": [
-      {"act": 1, "text": "Dietrich spends the tournament with Fabio and Esmeralda at his side,"},
-      {"act": 2, "text": " though his road eventually runs into Grand Aragon, where a general named Gilchris sets the battlefield ablaze."}]},
-    {"kind": "mixed", "src": ["FEW", "WCC"], "segments": [
-      {"act": 1, "text": "The prize of the Heroic Games is a single wish granted by Solel,"},
-      {"act": 3, "text": " but when the heroes finally gather to face Balor himself, nobody is fighting for wishes anymore."}]},
-    {"kind": "mixed", "src": ["RP2", "TGW"], "segments": [
-      {"act": 2, "text": "After Lyrah is first beaten she seals herself inside a cocoon while fresh enemies flood the field,"},
-      {"act": 1, "text": " a far cry from the opening, when the only thing anyone fears is the shambling dead."}]},
-    {"kind": "mixed", "src": ["TGW"], "segments": [
-      {"act": 1, "text": "The survivors of that ruined future have no army to speak of,"},
-      {"act": 3, "text": " at least until Eshmel raises one and marches it out to break Balor's siege of Dagda."}]},
-    {"kind": "mixed", "src": ["RP2", "FEW"], "segments": [
-      {"act": 2, "text": "The war ends in a frantic escape from Dagsion as the army hurries Leda out of the city,"},
-      {"act": 1, "text": " the same city she first walked into thirsting for revenge."}]},
-    {"kind": "mixed", "src": ["FEW", "WCC", "RP2"], "segments": [
-      {"act": 1, "text": "Theodora rules Saramis with an iron hand and enters the Games for the glory of her nation,"},
-      {"act": 2, "text": " but the rivalry between her country and the empire boils over into open war as soon as the tournament is done."}]},
-    {"kind": "mixed", "src": ["RP3", "FEW"], "segments": [
-      {"act": 3, "text": "A sealed temple eventually opens to grant the heroes divine classes,"},
-      {"act": 1, "text": " though at the start Eshmel is just a newly summoned soul who barely understands this world."}]},
-
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "Keep an eye on the imperial court, because not everything in Dagsion is what it seems."}]},
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "Every wish has a price, and this story will make you wonder who really ends up paying it."}]},
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "The bonds these four form in the arena end up mattering far more than any trophy."}]},
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "Remember that opening scene, because the game certainly wants you to."}]},
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "Some of the faces you cheer for in the arena will look very different by the time the credits roll."}]},
-    {"kind": "foreshadow", "src": [], "segments": [
-      {"act": 0, "text": "Without saying too much, the Games are only the first chapter of a much bigger story."}]},
-
-    {"kind": "veiled", "src": ["RP2"], "segments": [
-      {"act": 2, "text": "One ruler at the heart of this story turns out to be far less human than his title suggests."}]},
-    {"kind": "veiled", "src": ["TGW", "RP3"], "segments": [
-      {"act": 3, "text": "The traveler the gods sent back eventually stops working from the shadows and takes command of the final war in person."}]}
+    {
+      "kind": "pure",
+      "src": [
+        "FEW",
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "In the opening hours the land is a graveyard run by the walking dead, and whoever is still breathing hides from Balor's legions."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "FEW",
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "A god older than the empire plucks one soul out of oblivion and binds it to a goddess whose gift is turning back the clock."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "FEW",
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Half a decade before that catastrophe, Solel throws open the gates of his capital for a tournament whose champion may ask him for anything at all."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "FEW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Dietrich never meant to set foot on Dagda; a beast of the deep sent his ship to the bottom, and he joins the tournament for nothing grander than the thrill of a good fight."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Hong Hua and Troy are the first friendly faces our hero finds among the ruins."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "WCC",
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "When the cheering stops, the empire and Saramis go to war, and the first blood is spilled on the Klytius Plains."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "On a bridge leading into the capital, an imperial officer named Lind hides behind a wall of armored elephants."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "The emperor Dagda does not go down quietly: struck down once, he rises again in the shape of a dragon."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "RP3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "In the closing campaign, the many versions of each hero from every rewritten timeline are folded into a single army."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "RP3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Lyrah makes her last stand as a dragon at the end of the world, and she does not walk away from it."
+        }
+      ]
+    },
+    {
+      "kind": "pure",
+      "src": [
+        "RP3",
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "The journey ends deep inside Balor's own temple, where the heroes tear down his barrier and destroy him."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "RP3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Cai enters the tournament with Tialla and Peter hoping to buy his father Castor's freedom,"
+        },
+        {
+          "act": 3,
+          "text": " and years later he is among the first to reach Eshmel's side when the capital is finally liberated."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Leda signs up the moment she learns that Bertrand, the man who killed her father, is competing too,"
+        },
+        {
+          "act": 2,
+          "text": " yet once the fighting turns into a real war, Bertrand is marching beside Theodora in its opening battle."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RP2",
+        "RP3"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "Aswan and Tahonia lend their blades only as passing guests during the invasion of Grand Aragon,"
+        },
+        {
+          "act": 3,
+          "text": " and it takes the last campaign for them to commit to the cause for good."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "WCC",
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,"
+        },
+        {
+          "act": 2,
+          "text": " which explains how Eshmel can appear out of nowhere to shatter the emperor's protective barrier when the capital is stormed."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RP3",
+        "FEW"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Long after the Games, each of Dagsion's gods asks a favor once their ruined temple is rebuilt,"
+        },
+        {
+          "act": 1,
+          "text": " but in the beginning Theodora's only interest in temples is the one she wants to raise for Yu Phas once she has claimed Cybele."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Dietrich spends the tournament with Fabio and Esmeralda at his side,"
+        },
+        {
+          "act": 2,
+          "text": " though his road eventually runs into Grand Aragon, where a general named Gilchris sets the battlefield ablaze."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "WCC"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "The prize of the Heroic Games is a single wish granted by Solel,"
+        },
+        {
+          "act": 3,
+          "text": " but when the heroes finally gather to face Balor himself, nobody is fighting for wishes anymore."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RP2",
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "After Lyrah is first beaten she seals herself inside a cocoon while fresh enemies flood the field,"
+        },
+        {
+          "act": 1,
+          "text": " a far cry from the opening, when the only thing anyone fears is the shambling dead."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "TGW"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "The survivors of that ruined future have no army to speak of,"
+        },
+        {
+          "act": 3,
+          "text": " at least until Eshmel raises one and marches it out to break Balor's siege of Dagda."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RP2",
+        "FEW"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "The war ends in a frantic escape from Dagsion as the army hurries Leda out of the city,"
+        },
+        {
+          "act": 1,
+          "text": " the same city she first walked into thirsting for revenge."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "WCC",
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Theodora rules Saramis with an iron hand and enters the Games for the glory of her nation,"
+        },
+        {
+          "act": 2,
+          "text": " but the rivalry between her country and the empire boils over into open war as soon as the tournament is done."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RP3",
+        "FEW"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "A sealed temple eventually opens to grant the heroes divine classes,"
+        },
+        {
+          "act": 1,
+          "text": " though at the start Eshmel is just a newly summoned soul who barely understands this world."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Keep an eye on the imperial court, because not everything in Dagsion is what it seems."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Every wish has a price, and this story will make you wonder who really ends up paying it."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "The bonds these four form in the arena end up mattering far more than any trophy."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Remember that opening scene, because the game certainly wants you to."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Some of the faces you cheer for in the arena will look very different by the time the credits roll."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Without saying too much, the Games are only the first chapter of a much bigger story."
+        }
+      ]
+    },
+    {
+      "kind": "veiled",
+      "src": [
+        "RP2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "One ruler at the heart of this story turns out to be far less human than his title suggests."
+        }
+      ]
+    },
+    {
+      "kind": "veiled",
+      "src": [
+        "TGW",
+        "RP3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "The traveler the gods sent back eventually stops working from the shadows and takes command of the final war in person."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "GR",
+        "PT"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "From the very first skirmish every recruit can choose from the starter lineup of Gladiator, Hunter, Soldier, Ornius Rider and Diviner."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "GR",
+        "PT"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Leda's road through the tournament is where the Dancer class comes from, earned in a side mission about finding a famous performer's heir."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "OL"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Each lord gets one recruit thrown in for free early on, like Guzran for Cai or Sofia for Theodora."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "OL"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Roosts draped in blue cloth around the capital let you jump between the four lords without starting a new save."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "OL"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Anyone you fail to win over before a lord's tournament run wraps up is gone from that run for good."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "Every soldier marches to war with a Concoction and an Antitoxin in hand, and there is no stuffing extra consumables into personal packs."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "Only gear a unit actually has equipped follows it onto the battlefields of the war; everything else stays in storage."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "The war camp hands out class weapons already forged to +2 or +3, but none of them survive past the end of the fighting."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "Between battles a dispatch officer lets you spend the chapter on drills, either for raw experience or to sharpen weapon ranks."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "A Levin Sword pried from Creek in the opening clash of the war is one of the first magic blades you can loot."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "A Longbow pulled from a golem's wreckage carries the Deadeye art, the most reliable way to crack the emperor's guard."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "TG",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Armies get sorted into squads of up to eight, starting with two and earning another after each major battle."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "TG",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Ruined posthouses and temples have to be rebuilt with construction materials before you can even step inside them."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "GR",
+        "PT",
+        "TG"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Master classes like Swordmaster and Great Knight stay locked until your units are pushing level 45."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Once Credna's shrine is restored, Eshmel's plain Nameless Spear can be reforged into the Shining Spear."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3",
+        "PT"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Five keys hidden in places like Heretics' Cave and Enno Isle open the way to divine classes such as Godhand and Apsara."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "GR",
+        "PT",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "The Elephant Rider is one of the last advanced classes to appear, showing up only in the closing campaign."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Smyrnos's trial hands you a pair of gauntlets that channel lightning through the Thoron Gauntlet art."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Searching Balor's sanctum turns up a Seraph Robe, a Talisman and a Speedwing for whoever is still standing."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "TG"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "For the final war the smart build is to shape each squad around its objective, keep a second carry unit in reserve and bring a lord only when their map ability is needed."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "OL",
+        "RS2"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Finishing Creek's errand to recover his late sister's keepsake during the tournament"
+        },
+        {
+          "act": 2,
+          "text": " pays off when he walks into your camp at the second battle of the war."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "GR",
+        "PT",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Diviners are part of the starting class roster,"
+        },
+        {
+          "act": 3,
+          "text": " but the faith-based War Monk only opens up after Aurora's ruined temple is repaired and her request fulfilled."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "OL",
+        "TG",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Unit levels and inventories are tracked separately for each lord's run,"
+        },
+        {
+          "act": 3,
+          "text": " which is why the closing campaign needs a shrine that spends Karma Shards to fuse every version of a recruit into one."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS2",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "Unequipped weapons left behind before the war"
+        },
+        {
+          "act": 3,
+          "text": " are waiting in the convoy again when the last campaign begins."
+        }
+      ]
+    }
   ]
 }

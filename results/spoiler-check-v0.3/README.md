@@ -1,4 +1,4 @@
-# spoiler-check results (task v0.3: mixed-act, foreshadowing and veiled sentences)
+# spoiler-check v0.3 results (mixed-act, foreshadowing and veiled sentences)
 
 Each model got only `script.docx` and the task instruction, with web access and Python (`python-docx`), and wrote `script_act1.docx`. Each folder holds that output, `score.json` (score, diagnostics and the exact error spans) and `reward.txt`.
 
@@ -21,4 +21,4 @@ No model added, deleted or reworded any text. Every model struck the spoiler hal
 - **Fable** and **Opus** both left the veiled Act 2 spoiler "One ruler at the heart of this story turns out to be far less human than his title suggests." visible, reading it as a harmless teaser.
 - **Haiku** struck three Act 1 clauses as spoilers (Fortuna's time travel, "The survivors of that ruined future have no army to speak of,", "Half a decade before that catastrophe,") and the joining words "though" and "but" at two mixed-sentence boundaries.
 
-Earlier cases: `../spoiler-check-v0.2/` (scrambled one-act sentences) and `../spoiler-check-v0.1/` (original hand-written script).
+Task version 0.4.0 replaced this case. Earlier cases: `../spoiler-check-v0.2/` (scrambled one-act sentences) and `../spoiler-check-v0.1/` (original hand-written script).

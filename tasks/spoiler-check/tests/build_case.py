@@ -17,7 +17,7 @@ import shutil
 from docx import Document
 
 SEED = 1449
-PER_PARAGRAPH = 5
+PER_PARAGRAPH = 6
 TITLE = "Fire Emblem: Fortune's Weave, the Story So Far"
 
 with open("tests/sentences.json") as f:
