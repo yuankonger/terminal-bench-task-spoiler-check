@@ -1,0 +1,47 @@
+{
+  "score": 0.47606382978723405,
+  "spoiler_recall": 0.602,
+  "strike_precision": 0.827,
+  "strike_f1": 0.6968,
+  "golden_words": 1766,
+  "golden_struck_words": 1128,
+  "errors": 591,
+  "added": 0,
+  "deleted": 0,
+  "missed": 449,
+  "over_struck": 142,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "and a gauntlet fighter who also maxes out axes and swords can one day hold the Scales of Judgement as the Eternal.",
+      "could, given enough bow and sword mastery, end up as the Calamity. Cai can bring home a pair of Saramis war elephants by helping an elephant rider with a personal bond.",
+      "Between battles a dispatch officer lets you spend the chapter on drills, either for raw experience or to sharpen weapon ranks. Every soldier marches to war with a Concoction and an Antitoxin in hand, and there is no stuffing extra consumables into personal packs.",
+      "yet the spear-only Trident with its healing bonus waits far beyond them.",
+      "Five keys hidden in places like Heretics' Cave and Enno Isle open the way to divine classes such as Godhand and Apsara. Pair top-rank bows with top-rank swords and the Crystal of Darkness unlocks a class that picks locks and sniffs out hidden treasure.",
+      "Master classes like Swordmaster and Great Knight stay locked until your units are pushing level 45.",
+      "Bundles of treatises on heavy armor, flying and riding drop from enemies who try to flee the late gate battles. Riders who have mastered axes, spears and swords can be fitted with a Divinium Saddle and pick up the Golden Ride.",
+      "Credna's Mallet is an axe that carries its own Flame Ring art.",
+      "Jurah's mirror of ice cuts the damage from critical hits in half for whoever carries it. Kalla's Needle rewards every follow-up attack with five extra points of attack.",
+      "though a dancer who later masters the sword can trade up to the Apsara with a Muses' Necklace.",
+      "Armies get sorted into squads of up to eight, starting with two and earning another after each major battle.",
+      "A sash fit for an emperor turns a gauntlet brawler with a little healing training into a fighter who is very hard to hit.",
+      "Smyrnos's trial hands you a pair of gauntlets that channel lightning through the Thoron Gauntlet art.",
+      "The Cloth of Aurora, which lifts resistance for every ally standing nearby,",
+      "The Avatar asks for top marks in both white and black magic and pays it back with twenty extra points of magical healing.",
+      "One sword-only calling, granted to whoever holds a demonic swordguard, tacks three uses onto every combat art and adds ten points of sword crit.",
+      "A Longbow pulled from a golem's wreckage carries the Deadeye art, the most reliable way to crack the emperor's guard.",
+      "while the Shield of Zephyrus that shrugs off anti-flier weapons can only be won from a god's trial.",
+      "Only one unit at a time may hold each of the god-tier titles, and the certification only goes through when the pass chance is guaranteed."
+    ],
+    "over_struck": [
+      "Diviners are part of the starting class roster,",
+      "Hong Hua and Troy are the first friendly faces our hero finds among the ruins. Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,",
+      "a far cry from the opening, when the only thing anyone fears is the shambling dead.",
+      "A god older than the empire plucks one soul out of oblivion and binds it to a goddess whose gift is turning back the clock.",
+      "The survivors of that ruined future have no army to speak of,",
+      "though at the start Eshmel is just a newly summoned soul who barely understands this world. In the opening hours the land is a graveyard run by the walking dead, and whoever is still breathing hides from Balor's legions.",
+      "the same city she first walked into thirsting for revenge."
+    ]
+  }
+}
