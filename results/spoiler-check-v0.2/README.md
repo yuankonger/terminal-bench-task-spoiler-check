@@ -1,4 +1,4 @@
-# spoiler-check results (task v0.2: scrambled one-act sentences)
+# spoiler-check v0.2 results (scrambled one-act sentences)
 
 Each model got only `script.docx` and the task instruction, with web access and Python (`python-docx`), and wrote `script_act1.docx`. Each folder holds that output, `score.json` (score, diagnostics and the exact error spans) and `reward.txt`.
 
@@ -20,4 +20,4 @@ No model added, deleted or reworded any text.
 - **Opus** struck the Act 1 sentence "The progenitor god Sothis summons a single soul, the Mediator Eshmel ...". It found a source saying who Eshmel really is gets revealed in Part III, and struck it to be safe.
 - **Haiku** left the Act 3 sentence "The Temple of the Diadem opens and grants the heroes access to divine classes." visible, and struck the Act 1 sentence "Fortuna sends Eshmel five years into the past ..." as a twist.
 
-Results for the original hand-written script are in `../spoiler-check-v0.1/`.
+Task version 0.3.0 replaced this case; results for the original hand-written script are in `../spoiler-check-v0.1/`.

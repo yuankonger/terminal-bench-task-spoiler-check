@@ -1,43 +1,91 @@
 {
-  "_note": "Answer key for the test case. Each sentence is a paraphrase of one plot event and belongs to exactly one act. Act 1 = Prologue + Part I (Heroic Games), Act 2 = Part II 'War', Act 3 = Part III 'Salvation'. build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
+  "_note": "Answer key for the test case (v0.3). Every sentence is written in our own words, not copied from a source. Each sentence is a list of segments; a segment's act says when its event first happens: 1 = Prologue + Part I (Heroic Games), 2 = Part II 'War', 3 = Part III 'Salvation', 0 = vague foreshadowing that spoils nothing. Segments with act 2 or 3 are struck in the golden doc. Kinds: pure (one act), mixed (an Act 1 event and a later event in one sentence), foreshadow (kept), veiled (a later event hinted at without names; struck). build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
   "sources": {
     "FEW": "https://fireemblemwiki.org/wiki/Fire_Emblem:_Fortune's_Weave",
     "TGW": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/story-and-plot-structure",
     "WCC": "https://wccftech.com/review/fire-emblem-fortunes-weave/",
     "RP2": "https://www.rpgsite.net/guide/21325-fire-emblem-fortunes-weave-part-2-war-walkthrough",
-    "RP3": "https://www.rpgsite.net/guide/21433-fire-emblem-fortunes-weave-part-iii-salvation-walkthrough",
-    "VGC": "https://www.videogameschronicle.com/guide/how-progress-works-in-fire-emblem-fortunes-weave-in-each-part/"
+    "RP3": "https://www.rpgsite.net/guide/21433-fire-emblem-fortunes-weave-part-iii-salvation-walkthrough"
   },
   "sentences": [
-    {"act": 1, "src": ["FEW", "TGW"], "text": "The story opens in a ruined future where Balor has returned and his hordes of risen dead have driven the survivors of Dagda into hiding."},
-    {"act": 1, "src": ["FEW", "TGW"], "text": "The progenitor god Sothis summons a single soul, the Mediator Eshmel, and pairs that soul with Fortuna, a goddess who can bend time."},
-    {"act": 1, "src": ["FEW", "TGW", "WCC"], "text": "Fortuna sends Eshmel five years into the past so that the fates of four future heroes can be rewritten before Balor rises."},
-    {"act": 1, "src": ["TGW"], "text": "Among the scattered survivors of that bleak opening, the protagonist meets Hong Hua and Troy."},
-    {"act": 1, "src": ["FEW", "TGW"], "text": "Back in the year 1449, the ruler Solel invites fighters to the Heroic Games in the capital Dagsion and promises a single wish to whoever wins."},
-    {"act": 1, "src": ["FEW", "WCC"], "text": "Cai signs up for the tournament with Tialla and Peter, hoping the prize will free his imprisoned father Castor."},
-    {"act": 1, "src": ["FEW"], "text": "Dietrich, a warrior from Fodlan, washes up on Dagda after a sea monster wrecks his ship and enters the Games simply because he craves a good fight."},
-    {"act": 1, "src": ["FEW"], "text": "Theodora, queen of Saramis, competes so she can use the wish to take Cybele and rebuild the temple of Yu Phas."},
-    {"act": 1, "src": ["FEW"], "text": "Leda enters the competition after discovering that Bertrand, the White-Maned Demon who murdered her father, is fighting in it too."},
-    {"act": 1, "src": ["FEW"], "text": "Dietrich spends his tournament run alongside his companions Fabio and Esmeralda."},
-    {"act": 2, "src": ["WCC", "VGC"], "text": "Once the Games are over, open war breaks out between the Dagdan Empire and Theodora's nation of Saramis."},
-    {"act": 2, "src": ["RP2"], "text": "The war begins on the Klytius Plains, where Theodora and Bertrand fight side by side with the Flame Lord."},
-    {"act": 2, "src": ["RP2"], "text": "The army then captures Agris Stronghold and brings down its commanders, Lind and Ianuarius."},
-    {"act": 2, "src": ["RP2"], "text": "Pushing past the Salt Road, the allies invade Grand Aragon and face Gilchris, a general who sets the battlefield on fire."},
-    {"act": 2, "src": ["RP2"], "text": "Aswan and Tahonia fight alongside the army as temporary guests during the Grand Aragon campaign."},
-    {"act": 2, "src": ["RP2"], "text": "In the assault on Dagsion, the allies take the Alcineus Span and defeat Lind, who shelters behind war elephants at the top of the bridge."},
-    {"act": 2, "src": ["RP2"], "text": "Inside the capital, the Divine Emperor Dagda reveals a second form as a dragon after his first defeat."},
-    {"act": 2, "src": ["RP2"], "text": "Eshmel steps in at the decisive moment to break the shield protecting Dagda."},
-    {"act": 2, "src": ["RP2"], "text": "Lyrah, the incarnation of the underworld, is beaten but wraps herself in a cocoon as enemy reinforcements pour in."},
-    {"act": 2, "src": ["RP2"], "text": "The war arc ends with a desperate flight from Dagsion as the army escorts Leda to safety."},
-    {"act": 3, "src": ["TGW", "RP3"], "text": "Eshmel passes through the Door of Destiny to lead a single final campaign against Balor."},
-    {"act": 3, "src": ["TGW"], "text": "Eshmel's Promised One's Army sets out to break Balor's siege of Dagda."},
-    {"act": 3, "src": ["RP3"], "text": "In the liberation of Dagsion, Eshmel holds the line against Dagda until Cai, Theodora and Bertrand arrive as reinforcements."},
-    {"act": 3, "src": ["RP3"], "text": "Allies recruited across every earlier timeline come together under one banner, with each version of a hero merged into one."},
-    {"act": 3, "src": ["RP3"], "text": "The army repairs the temples of Dagsion's six gods, including Aurora, Mars and Credna, and each god asks a favor in return."},
-    {"act": 3, "src": ["RP3"], "text": "The Temple of the Diadem opens and grants the heroes access to divine classes."},
-    {"act": 3, "src": ["RP3"], "text": "Aswan and Tahonia finally join the cause for good at the start of the Song of the Living section."},
-    {"act": 3, "src": ["RP3"], "text": "At the edge of twilight, the heroes slay Lyrah in her dragon form."},
-    {"act": 3, "src": ["RP3", "TGW"], "text": "The party then fights its way through the three-part Temple of Balor."},
-    {"act": 3, "src": ["RP3", "WCC"], "text": "In Balor's Last Stand, the united heroes destroy the gates guarding his barrier and defeat the lord of the underworld."}
+    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
+      {"act": 1, "text": "In the opening hours the land is a graveyard run by the walking dead, and whoever is still breathing hides from Balor's legions."}]},
+    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
+      {"act": 1, "text": "A god older than the empire plucks one soul out of oblivion and binds it to a goddess whose gift is turning back the clock."}]},
+    {"kind": "pure", "src": ["FEW", "TGW"], "segments": [
+      {"act": 1, "text": "Half a decade before that catastrophe, Solel throws open the gates of his capital for a tournament whose champion may ask him for anything at all."}]},
+    {"kind": "pure", "src": ["FEW"], "segments": [
+      {"act": 1, "text": "Dietrich never meant to set foot on Dagda; a beast of the deep sent his ship to the bottom, and he joins the tournament for nothing grander than the thrill of a good fight."}]},
+    {"kind": "pure", "src": ["TGW"], "segments": [
+      {"act": 1, "text": "Hong Hua and Troy are the first friendly faces our hero finds among the ruins."}]},
+
+    {"kind": "pure", "src": ["WCC", "RP2"], "segments": [
+      {"act": 2, "text": "When the cheering stops, the empire and Saramis go to war, and the first blood is spilled on the Klytius Plains."}]},
+    {"kind": "pure", "src": ["RP2"], "segments": [
+      {"act": 2, "text": "On a bridge leading into the capital, an imperial officer named Lind hides behind a wall of armored elephants."}]},
+    {"kind": "pure", "src": ["RP2"], "segments": [
+      {"act": 2, "text": "The emperor Dagda does not go down quietly: struck down once, he rises again in the shape of a dragon."}]},
+
+    {"kind": "pure", "src": ["RP3"], "segments": [
+      {"act": 3, "text": "In the closing campaign, the many versions of each hero from every rewritten timeline are folded into a single army."}]},
+    {"kind": "pure", "src": ["RP3"], "segments": [
+      {"act": 3, "text": "Lyrah makes her last stand as a dragon at the end of the world, and she does not walk away from it."}]},
+    {"kind": "pure", "src": ["RP3", "TGW"], "segments": [
+      {"act": 3, "text": "The journey ends deep inside Balor's own temple, where the heroes tear down his barrier and destroy him."}]},
+
+    {"kind": "mixed", "src": ["FEW", "RP3"], "segments": [
+      {"act": 1, "text": "Cai enters the tournament with Tialla and Peter hoping to buy his father Castor's freedom,"},
+      {"act": 3, "text": " and years later he is among the first to reach Eshmel's side when the capital is finally liberated."}]},
+    {"kind": "mixed", "src": ["FEW", "RP2"], "segments": [
+      {"act": 1, "text": "Leda signs up the moment she learns that Bertrand, the man who killed her father, is competing too,"},
+      {"act": 2, "text": " yet once the fighting turns into a real war, Bertrand is marching beside Theodora in its opening battle."}]},
+    {"kind": "mixed", "src": ["RP2", "RP3"], "segments": [
+      {"act": 2, "text": "Aswan and Tahonia lend their blades only as passing guests during the invasion of Grand Aragon,"},
+      {"act": 3, "text": " and it takes the last campaign for them to commit to the cause for good."}]},
+    {"kind": "mixed", "src": ["FEW", "WCC", "RP2"], "segments": [
+      {"act": 1, "text": "Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,"},
+      {"act": 2, "text": " which explains how Eshmel can appear out of nowhere to shatter the emperor's protective barrier when the capital is stormed."}]},
+    {"kind": "mixed", "src": ["RP3", "FEW"], "segments": [
+      {"act": 3, "text": "Long after the Games, each of Dagsion's gods asks a favor once their ruined temple is rebuilt,"},
+      {"act": 1, "text": " but in the beginning Theodora's only interest in temples is the one she wants to raise for Yu Phas once she has claimed Cybele."}]},
+    {"kind": "mixed", "src": ["FEW", "RP2"], "segments": [
+      {"act": 1, "text": "Dietrich spends the tournament with Fabio and Esmeralda at his side,"},
+      {"act": 2, "text": " though his road eventually runs into Grand Aragon, where a general named Gilchris sets the battlefield ablaze."}]},
+    {"kind": "mixed", "src": ["FEW", "WCC"], "segments": [
+      {"act": 1, "text": "The prize of the Heroic Games is a single wish granted by Solel,"},
+      {"act": 3, "text": " but when the heroes finally gather to face Balor himself, nobody is fighting for wishes anymore."}]},
+    {"kind": "mixed", "src": ["RP2", "TGW"], "segments": [
+      {"act": 2, "text": "After Lyrah is first beaten she seals herself inside a cocoon while fresh enemies flood the field,"},
+      {"act": 1, "text": " a far cry from the opening, when the only thing anyone fears is the shambling dead."}]},
+    {"kind": "mixed", "src": ["TGW"], "segments": [
+      {"act": 1, "text": "The survivors of that ruined future have no army to speak of,"},
+      {"act": 3, "text": " at least until Eshmel raises one and marches it out to break Balor's siege of Dagda."}]},
+    {"kind": "mixed", "src": ["RP2", "FEW"], "segments": [
+      {"act": 2, "text": "The war ends in a frantic escape from Dagsion as the army hurries Leda out of the city,"},
+      {"act": 1, "text": " the same city she first walked into thirsting for revenge."}]},
+    {"kind": "mixed", "src": ["FEW", "WCC", "RP2"], "segments": [
+      {"act": 1, "text": "Theodora rules Saramis with an iron hand and enters the Games for the glory of her nation,"},
+      {"act": 2, "text": " but the rivalry between her country and the empire boils over into open war as soon as the tournament is done."}]},
+    {"kind": "mixed", "src": ["RP3", "FEW"], "segments": [
+      {"act": 3, "text": "A sealed temple eventually opens to grant the heroes divine classes,"},
+      {"act": 1, "text": " though at the start Eshmel is just a newly summoned soul who barely understands this world."}]},
+
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "Keep an eye on the imperial court, because not everything in Dagsion is what it seems."}]},
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "Every wish has a price, and this story will make you wonder who really ends up paying it."}]},
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "The bonds these four form in the arena end up mattering far more than any trophy."}]},
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "Remember that opening scene, because the game certainly wants you to."}]},
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "Some of the faces you cheer for in the arena will look very different by the time the credits roll."}]},
+    {"kind": "foreshadow", "src": [], "segments": [
+      {"act": 0, "text": "Without saying too much, the Games are only the first chapter of a much bigger story."}]},
+
+    {"kind": "veiled", "src": ["RP2"], "segments": [
+      {"act": 2, "text": "One ruler at the heart of this story turns out to be far less human than his title suggests."}]},
+    {"kind": "veiled", "src": ["TGW", "RP3"], "segments": [
+      {"act": 3, "text": "The traveler the gods sent back eventually stops working from the shadows and takes command of the final war in person."}]}
   ]
 }
