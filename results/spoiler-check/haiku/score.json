@@ -1,0 +1,29 @@
+{
+  "score": 0.7779237844940867,
+  "spoiler_recall": 0.8292,
+  "strike_precision": 0.9418,
+  "strike_f1": 0.8819,
+  "golden_words": 1292,
+  "golden_struck_words": 761,
+  "errors": 169,
+  "added": 0,
+  "deleted": 0,
+  "missed": 130,
+  "over_struck": 39,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "A Longbow pulled from a golem's wreckage carries the Deadeye art, the most reliable way to crack the emperor's guard.",
+      "Master classes like Swordmaster and Great Knight stay locked until your units are pushing level 45.",
+      "Armies get sorted into squads of up to eight, starting with two and earning another after each major battle. Between battles a dispatch officer lets you spend the chapter on drills, either for raw experience or to sharpen weapon ranks.",
+      "Only gear a unit actually has equipped follows it onto the battlefields of the war; everything else stays in storage.",
+      "Smyrnos's trial hands you a pair of gauntlets that channel lightning through the Thoron Gauntlet art. Ruined posthouses and temples have to be rebuilt with construction materials before you can even step inside them."
+    ],
+    "over_struck": [
+      "a far cry from the opening, when the only thing anyone fears is the shambling dead. The survivors of that ruined future have no army to speak of,",
+      "though",
+      "the same city she first walked into thirsting for revenge."
+    ]
+  }
+}

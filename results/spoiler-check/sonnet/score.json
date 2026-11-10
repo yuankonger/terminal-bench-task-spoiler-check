@@ -1,0 +1,34 @@
+{
+  "score": 0.5873850197109067,
+  "spoiler_recall": 0.6583,
+  "strike_precision": 0.9027,
+  "strike_f1": 0.7614,
+  "golden_words": 1292,
+  "golden_struck_words": 761,
+  "errors": 314,
+  "added": 0,
+  "deleted": 0,
+  "missed": 260,
+  "over_struck": 54,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "For the final war the smart build is to shape each squad around its objective, keep a second carry unit in reserve and bring a lord only when their map ability is needed.",
+      "The Elephant Rider is one of the last advanced classes to appear, showing up only in the closing campaign.",
+      "Five keys hidden in places like Heretics' Cave and Enno Isle open the way to divine classes such as Godhand and Apsara.",
+      "The war camp hands out class weapons already forged to +2 or +3, but none of them survive past the end of the fighting.",
+      "A sealed temple eventually opens to grant the heroes divine classes,",
+      "Every soldier marches to war with a Concoction and an Antitoxin in hand, and there is no stuffing extra consumables into personal packs.",
+      "Master classes like Swordmaster and Great Knight stay locked until your units are pushing level 45.",
+      "Armies get sorted into squads of up to eight, starting with two and earning another after each major battle. Between battles a dispatch officer lets you spend the chapter on drills, either for raw experience or to sharpen weapon ranks.",
+      "Only gear a unit actually has equipped follows it onto the battlefields of the war; everything else stays in storage.",
+      "Unequipped weapons left behind before the war are waiting in the convoy again when the last campaign begins. Smyrnos's trial hands you a pair of gauntlets that channel lightning through the Thoron Gauntlet art. Ruined posthouses and temples have to be rebuilt with construction materials before you can even step inside them."
+    ],
+    "over_struck": [
+      "The survivors of that ruined future have no army to speak of,",
+      "A god older than the empire plucks one soul out of oblivion and binds it to a goddess whose gift is turning back the clock.",
+      "Fortuna's magic carries Eshmel five years back in time to change the fates of four future heroes,"
+    ]
+  }
+}
