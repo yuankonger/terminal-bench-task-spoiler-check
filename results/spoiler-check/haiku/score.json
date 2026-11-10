@@ -1,0 +1,23 @@
+{
+  "score": 0.8956521739130435,
+  "spoiler_recall": 0.9594,
+  "strike_precision": 0.9377,
+  "strike_f1": 0.9484,
+  "golden_words": 562,
+  "golden_struck_words": 345,
+  "errors": 36,
+  "added": 0,
+  "deleted": 0,
+  "missed": 14,
+  "over_struck": 22,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [
+      "The Temple of the Diadem opens and grants the heroes access to divine classes."
+    ],
+    "over_struck": [
+      "Fortuna sends Eshmel five years into the past so that the fates of four future heroes can be rewritten before Balor rises."
+    ]
+  }
+}

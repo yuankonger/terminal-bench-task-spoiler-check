@@ -1,0 +1,21 @@
+{
+  "score": 0.9333333333333333,
+  "spoiler_recall": 1.0,
+  "strike_precision": 0.9375,
+  "strike_f1": 0.9677,
+  "golden_words": 562,
+  "golden_struck_words": 345,
+  "errors": 23,
+  "added": 0,
+  "deleted": 0,
+  "missed": 0,
+  "over_struck": 23,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [],
+    "over_struck": [
+      "The progenitor god Sothis summons a single soul, the Mediator Eshmel, and pairs that soul with Fortuna, a goddess who can bend time."
+    ]
+  }
+}

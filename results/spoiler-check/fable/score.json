@@ -1,0 +1,19 @@
+{
+  "score": 1.0,
+  "spoiler_recall": 1.0,
+  "strike_precision": 1.0,
+  "strike_f1": 1.0,
+  "golden_words": 562,
+  "golden_struck_words": 345,
+  "errors": 0,
+  "added": 0,
+  "deleted": 0,
+  "missed": 0,
+  "over_struck": 0,
+  "error_spans": {
+    "added": [],
+    "deleted": [],
+    "missed": [],
+    "over_struck": []
+  }
+}
