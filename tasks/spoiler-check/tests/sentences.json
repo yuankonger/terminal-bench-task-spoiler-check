@@ -1,5 +1,5 @@
 {
-  "_note": "Answer key for the test case (v0.3). Every sentence is written in our own words, not copied from a source. Each sentence is a list of segments; a segment's act says when its event first happens: 1 = Prologue + Part I (Heroic Games), 2 = Part II 'War', 3 = Part III 'Salvation', 0 = vague foreshadowing that spoils nothing. Segments with act 2 or 3 are struck in the golden doc. Kinds: item (a weapon, item, class, system or build tied to the act it first appears in; may be mixed), pure (one act), mixed (an Act 1 event and a later event in one sentence), foreshadow (kept), veiled (a later event hinted at without names; struck). build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
+  "_note": "Answer key for the test case (v0.3). Every sentence is written in our own words, not copied from a source. Each sentence is a list of segments; a segment's act says when its event first happens: 1 = Prologue + Part I (Heroic Games), 2 = Part II 'War', 3 = Part III 'Salvation', 0 = vague foreshadowing that spoils nothing. Segments with act 2 or 3 are struck in the golden doc. Kinds: divine (an Act 3 divine class described by its skills, license item or rules, often without naming it), item (a weapon, item, class, system or build tied to the act it first appears in; may be mixed), pure (one act), mixed (an Act 1 event and a later event in one sentence), foreshadow (kept), veiled (a later event hinted at without names; struck). build_case.py shuffles these into environment/script.docx and tests/golden.docx.",
   "sources": {
     "FEW": "https://fireemblemwiki.org/wiki/Fire_Emblem:_Fortune's_Weave",
     "TGW": "https://thegameswiki.com/fire-emblem-fortunes-weave/wiki/story-and-plot-structure",
@@ -9,7 +9,8 @@
     "TG": "https://www.thegamer.com/fire-emblem-fortunes-weave-part-3-guide-tips/",
     "GR": "https://gamerant.com/fire-emblem-fortunes-weave-how-to-unlock-all-classes/",
     "PT": "https://www.pockettactics.com/fire-emblem-fortunes-weave/classes",
-    "OL": "https://outputlag.com/guides/fire-emblem-fortunes-weave-unit-composition-and-team-building-for-each-route-complete-guide/"
+    "OL": "https://outputlag.com/guides/fire-emblem-fortunes-weave-unit-composition-and-team-building-for-each-route-complete-guide/",
+    "G8": "https://game8.co/games/Fire-Emblem-Fortunes-Weave/archives/620256"
   },
   "sentences": [
     {
@@ -755,6 +756,316 @@
         {
           "act": 3,
           "text": " are waiting in the convoy again when the last campaign begins."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "One sword-only calling, granted to whoever holds a demonic swordguard, tacks three uses onto every combat art and adds ten points of sword crit."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "The Avatar asks for top marks in both white and black magic and pays it back with twenty extra points of magical healing."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Riders who have mastered axes, spears and swords can be fitted with a Divinium Saddle and pick up the Golden Ride."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8",
+        "PT"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Only one unit at a time may hold each of the god-tier titles, and the certification only goes through when the pass chance is guaranteed."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "A sash fit for an emperor turns a gauntlet brawler with a little healing training into a fighter who is very hard to hit."
+        }
+      ]
+    },
+    {
+      "kind": "divine",
+      "src": [
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Pair top-rank bows with top-rank swords and the Crystal of Darkness unlocks a class that picks locks and sniffs out hidden treasure."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Jurah's mirror of ice cuts the damage from critical hits in half for whoever carries it."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Kalla's Needle rewards every follow-up attack with five extra points of attack."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Credna's Mallet is an axe that carries its own Flame Ring art."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Bundles of treatises on heavy armor, flying and riding drop from enemies who try to flee the late gate battles."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Cai can bring home a pair of Saramis war elephants by helping an elephant rider with a personal bond."
+        }
+      ]
+    },
+    {
+      "kind": "item",
+      "src": [
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "Dagda's Godshield sits on the capital's summit until someone offers it to Jurah."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "GR",
+        "PT",
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Leda's tournament side mission is where the Dancer class first shows up,"
+        },
+        {
+          "act": 3,
+          "text": " though a dancer who later masters the sword can trade up to the Apsara with a Muses' Necklace."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "GR",
+        "PT",
+        "G8",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Diviners and Soldiers are on the menu from the very first fight,"
+        },
+        {
+          "act": 3,
+          "text": " yet the spear-only Trident with its healing bonus waits far beyond them."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "FEW",
+        "G8"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Dietrich's crew of Fabio and Esmeralda never shies away from a brawl,"
+        },
+        {
+          "act": 3,
+          "text": " and a gauntlet fighter who also maxes out axes and swords can one day hold the Scales of Judgement as the Eternal."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "OL",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Theodora's free recruit Sofia joins without a fight,"
+        },
+        {
+          "act": 3,
+          "text": " while the Shield of Zephyrus that shrugs off anti-flier weapons can only be won from a god's trial."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RS3",
+        "FEW"
+      ],
+      "segments": [
+        {
+          "act": 3,
+          "text": "The Cloth of Aurora, which lifts resistance for every ally standing nearby,"
+        },
+        {
+          "act": 1,
+          "text": " makes a fun contrast with Cai's first nervous visit to Aurora's mysterious temple during the tournament."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "GR",
+        "PT",
+        "G8"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "A Hunter picked on day one"
+        },
+        {
+          "act": 3,
+          "text": " could, given enough bow and sword mastery, end up as the Calamity."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "RS2",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 2,
+          "text": "The war camp's +2 blades are gone the moment the fighting stops,"
+        },
+        {
+          "act": 3,
+          "text": " but the Talisman and Seraph Robe hidden in Balor's temple are yours to keep."
+        }
+      ]
+    },
+    {
+      "kind": "mixed",
+      "src": [
+        "OL",
+        "RS3"
+      ],
+      "segments": [
+        {
+          "act": 1,
+          "text": "Switching lords at the blue-draped roosts costs you nothing,"
+        },
+        {
+          "act": 3,
+          "text": " and the Karma Shards earned along the way are later spent fusing each recruit's versions together."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "Hold on to your most dedicated sword users, because the game rewards specialists in ways you won't see coming."
+        }
+      ]
+    },
+    {
+      "kind": "foreshadow",
+      "src": [],
+      "segments": [
+        {
+          "act": 0,
+          "text": "There is far more to the class tree than the tournament lets on."
         }
       ]
     }

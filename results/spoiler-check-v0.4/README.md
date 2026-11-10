@@ -1,4 +1,4 @@
-# spoiler-check results (task v0.4: story plus act-specific items, weapons, classes and builds)
+# spoiler-check v0.4 results (story plus act-specific items, weapons, classes and builds)
 
 Each model got only `script.docx` and the task instruction, with web access and Python (`python-docx`), and wrote `script_act1.docx`. Each folder holds that output, `score.json` (score, diagnostics and the exact error spans) and `reward.txt`.
 
@@ -21,4 +21,4 @@ No model added, deleted or reworded any text.
 - **Haiku** left about five later-act item sentences visible (the Deadeye Longbow, master classes at level 45, squads, equipped gear following units into the war, Smyrnos's Thoron Gauntlet), and struck the Act 1 halves of two mixed sentences plus a stray "though".
 - **Sonnet** treated most gameplay sentences as harmless tips and left about ten later-act ones visible: war-camp +2/+3 weapons, the Concoction/Antitoxin rule, equipped gear, squads, the squad-building tip, master classes, the Elephant Rider, the five keys and divine classes, the sealed temple, and weapons returning in the convoy. It also struck three Act 1 setup lines about Sothis, Fortuna's time travel and the survivors having no army.
 
-Earlier cases: `../spoiler-check-v0.3/`, `../spoiler-check-v0.2/`, `../spoiler-check-v0.1/`.
+Task version 0.5.0 replaced this case. Earlier cases: `../spoiler-check-v0.3/`, `../spoiler-check-v0.2/`, `../spoiler-check-v0.1/`.
